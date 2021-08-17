@@ -9,4 +9,4 @@ setInterval(function(){
     if(i%2==0){
 	    setTimeout(() => { document.dispatchEvent(event); }, i);
     }
-}, Math.floor(Math.random() * 100));
+}, Math.floor(Math.random() * 50));
